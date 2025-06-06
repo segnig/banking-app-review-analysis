@@ -1,0 +1,11 @@
+pandas
+numpy
+requests
+beautifulsoup4
+sqlalchemy
+cx_Oracle
+matplotlib
+seaborn
+scikit-learn
+nltk
+google-play-scraper
