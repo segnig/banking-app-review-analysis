@@ -1,11 +1,10 @@
 from google_play_scraper import reviews, app, Sort
 import pandas as pd
-from typing import List, Optional, Dict, Union
+from typing import List, Dict
 import os
 import time
 from tqdm import tqdm
 import json
-from datetime import datetime
 
 
 class ScrapeReview:
@@ -50,8 +49,8 @@ class ScrapeReview:
     def _scrape_single_app(
         self,
         app_id: str,
-        count: int = 1000,
-        country: str = "eth",
+        count: int = 5000,
+        country: str = "us",
         lang: str = "en",
         sort: Sort = Sort.NEWEST,
     ) -> pd.DataFrame:
@@ -73,7 +72,7 @@ class ScrapeReview:
         
         while attempts < self.max_retries:
             try:
-                result, continuation_token = reviews(
+                result, _ = reviews(
                     app_id=app_id,
                     country=country,
                     lang=lang,
@@ -89,15 +88,15 @@ class ScrapeReview:
                 attempts += 1
                 last_exception = e
                 print(f"Attempt {attempts} failed for {app_id}: {str(e)}")
-                time.sleep( * attempts)
+                time.sleep(self.delay * attempts)
         
         print(f"Failed to scrape {app_id} after {self.max_retries} attempts. Last error: {str(last_exception)}")
         return pd.DataFrame()
 
     def _scrape_all_data(
         self,
-        count: int = 1000,
-        country: str = "eth",
+        count: int = 5000,
+        country: str = "us",
         lang: str = "en",
         sort: Sort = Sort.NEWEST,
     ) -> pd.DataFrame:
@@ -108,7 +107,7 @@ class ScrapeReview:
             count: Number of reviews to scrape per app
             country: Country code for reviews
             lang: Language for reviews
-            sort: S 
+            sort: Sort order for reviews
             
         Returns:
             Combined DataFrame of all reviews
@@ -129,24 +128,24 @@ class ScrapeReview:
                 lang=lang,
                 sort=sort,
             )
-            self.delay
+            
             if not df.empty:
                 all_data = pd.concat([all_data, df], ignore_index=True)
             else:
                 print(f"No reviews scraped for {app_id}")
             
-            time.sleep(self.delay) 
+            time.sleep(self.delay)
         
         if self.save and not all_data.empty:
-            filename = f"raw_reviews.csv"
+            filename = "raw_reviews.csv"
             filepath = os.path.join(self.output_dir, filename)
             
             try:
-                all_data.to_csv(filepath, index=False)
+                all_data[['reviewId', 'userName', 'content', 'score', 'thumbsUpCount', 'at', 'app_id']].to_csv(filepath, index=False)
                 print(f"Data saved to {filepath}")
                 
-                json_filepath = os.path.join(self.output_dir, f"raw_reviews.json")
-                all_data.to_json(json_filepath, orient="records", indent=2)
+                json_filepath = os.path.join(self.output_dir, "raw_reviews.json")
+                all_data[['reviewId', 'userName', 'content', 'score', 'thumbsUpCount', 'at', 'app_id']].to_json(json_filepath, orient="records", indent=4)
                 print(f"Data also saved as JSON to {json_filepath}")
                 
             except Exception as e:
@@ -183,8 +182,8 @@ class ScrapeReview:
         """Save the scraped metadata to a file."""
         if not self.metadata:
             return
-    
-        filename = f"metadata.json"
+            
+        filename = "metadata.json"
         filepath = os.path.join(self.output_dir, filename)
         
         try:
@@ -196,7 +195,7 @@ class ScrapeReview:
 
     def get_reviews(self) -> pd.DataFrame:
         """Get the scraped reviews DataFrame."""
-        return self.data
+        return self.data[['reviewId', 'userName', 'content', 'score', 'thumbsUpCount', 'at', 'app_id']]
 
     def get_metadata(self) -> Dict[str, Dict]:
         """Get the scraped metadata dictionary."""
