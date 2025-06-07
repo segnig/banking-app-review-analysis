@@ -12,3 +12,4 @@ google-play-scraper
 transformers 
 torch
 python-dotenv
+spacy
