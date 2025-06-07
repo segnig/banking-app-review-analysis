@@ -9,3 +9,6 @@ seaborn
 scikit-learn
 nltk
 google-play-scraper
+transformers 
+torch
+python-dotenv
