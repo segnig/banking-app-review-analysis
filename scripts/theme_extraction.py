@@ -13,13 +13,84 @@ class ReviewThematicAnalyzer:
         
     @staticmethod
     def _get_default_theme_rules() -> Dict[str, List[str]]:
-        """Default theme classification rules"""
+        """Optimized theme rules for preprocessed text (lemmatized, lowercase)"""
         return {
-            'Account Access': ['login', 'password', 'authentication', 'access', 'lock', 'account'],
-            'Transaction Issues': ['transfer', 'slow', 'failed', 'transaction', 'delay', 'payment'],
-            'UI/UX': ['interface', 'design', 'easy', 'navigation', 'layout', 'user friendly'],
-            'Customer Support': ['support', 'response', 'representative', 'wait', 'call', 'service'],
-            'Feature Requests': ['feature', 'add', 'should', 'could', 'option', 'want']
+            # Core functionality (all lemmatized forms)
+            'account_access': [
+                'login', 'sign in', 'authenticate', 'biometric', 'face', 'touch',
+                'password', 'pin', '2fa', 'two factor', 'verify', 'lock out',
+                'session', 'timeout', 'account', 'recover', 'access', 'deny'
+            ],
+            
+            'app_performance': [
+                'crash', 'freeze', 'hang', 'lag', 'slow', 'perform', "good",
+                "fast", "quick", "response", "smooth", "efficient",
+                'bug', 'glitch', 'error', 'respond', 'unstable', 'load',
+                'refresh', 'restart', 'close', 'memory', 'storage', "nice", 
+                "great", "excellent", "awesome", "perfect", "love", "like"
+                
+            ],
+            
+            'transaction': [
+                'transfer', 'send', 'money', 'receive', 'payment', 'pay',
+                'bill', 'transaction', 'fail', 'decline', 'pending', 'delay',
+                'instant', 'process', 'limit', 'amount', 'recipient',
+                'schedule', 'recur', 'cancel', 'reverse', 'history'
+            ],
+            
+            # User experience
+            'ui_ux': [
+                'interface', 'design', 'layout', 'navigate', 'menu',
+                'button', 'icon', 'display', 'read', 'intuitive',
+                'user friendly', 'complicate', 'confuse', 'modern', 'clutter'
+            ],
+            
+            'security': [
+                'secure', 'privacy', 'data', 'protect', 'encrypt',
+                'fraud', 'scam', 'phish', 'hack', 'breach', 'leak',
+                'permission', 'consent', 'track', 'biometric', 'authenticate'
+            ],
+            
+            # Service aspects
+            'customer_support': [
+                'support', 'help', 'contact', 'assist', 'service',
+                'respond', 'representative', 'wait', 'call', 'resolve',
+                'email', 'chat', 'phone', 'escalate', 'complain'
+            ],
+            
+            'notification': [
+                'notify', 'alert', 'remind', 'message', 'inbox',
+                'email', 'sms', 'push', 'sound', 'vibrate', 'frequent',
+                'customize', 'turn off', 'mute', 'promo', 'market'
+            ],
+            
+            # Account management
+            'account_management': [
+                'profile', 'set', 'prefer', 'personal', 'inform',
+                'update', 'change', 'verify', 'document', 'id', 'address',
+                'close account', 'delete', 'deactivate', 'reactivate'
+            ],
+            
+            # Financial features
+            'financial_tools': [
+                'budget', 'spend', 'analyze', 'report', 'insight', 'trend',
+                'save', 'goal', 'plan', 'forecast', 'category', 'tag',
+                'receipt', 'scan', 'export', 'csv', 'excel', 'pdf'
+            ],
+            
+            # Feature requests
+            'feature_request': [
+                'suggest', 'recommend', 'wish', 'want', 'need',
+                'should', 'could', 'improve', 'enhance', 'add',
+                'include', 'miss', 'future', 'roadmap', 'vote', 'request'
+            ],
+            
+            # Integrations
+            'integration': [
+                'integrate', 'connect', 'link', 'partner', 'external',
+                'google pay', 'apple pay', 'paypal', 'venmo', 'zelle',
+                'plaid', 'quickbook', 'mint', 'other bank'
+            ]
         }
     
     def preprocess(self, text: str) -> str:
@@ -86,7 +157,6 @@ class ReviewThematicAnalyzer:
         df: pd.DataFrame, 
         output_path: str,
         columns: List[str] = [
-            "review_id", 
             "review_text", 
             "sentiment_label", 
             "sentiment_score",
