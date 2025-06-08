@@ -1,0 +1,19 @@
+# Ignore virtual environment
+.venv/
+venv/
+
+# Ignore all SQL files
+sql/*.sql
+
+# Ignore all CSV files in the data folder
+data/*.csv
+
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints
+
+# Environment variables
+.env
