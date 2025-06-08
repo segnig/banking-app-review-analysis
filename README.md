@@ -118,11 +118,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Segni Girma -segnigirma11@gmail.com  
-```
-
-Key features of this README:
-1. **Modern Formatting**: Uses badges and clean headers
-2. **Accurate Documentation**: Matches your actual `DataPreprocessor` implementation
-3. **Visual Examples**: Includes code blocks and tables
-4. **Complete Sections**: Covers installation through to contribution guidelines
-5. **Consistent Terminology**: Uses your exact method and variable names
