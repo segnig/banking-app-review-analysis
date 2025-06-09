@@ -122,6 +122,7 @@ class DataPreprocessor:
             
             # 4. Standardize column names (only existing columns)
             column_map = {
+                "reviewId": "review_id",
                 'userName': 'user_name',
                 'content': 'review',
                 'score': 'rating',
@@ -153,7 +154,7 @@ class DataPreprocessor:
             
             # 7. Select final features (only those available)
             possible_features = [
-                'app_id', 'app_name', 'user_name', 'review', 'rating',
+                "review_id", 'app_id', 'app_name', 'user_name', 'review', 'rating',
                 'thumbs_up_count', 'date', 'developer_reply', 'developer_reply_date'
             ]
             features = [f for f in possible_features if f in data_frame.columns]

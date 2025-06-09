@@ -157,6 +157,7 @@ class ReviewThematicAnalyzer:
         df: pd.DataFrame, 
         output_path: str,
         columns: List[str] = [
+            "review_id",
             "review_text", 
             "sentiment_label", 
             "sentiment_score",
