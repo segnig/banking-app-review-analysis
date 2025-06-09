@@ -1,5 +1,33 @@
 {
     "python.analysis.extraPaths": [
         "./scripts"
+    ],
+    "sqltools.connections": [
+        {
+            "oracleOptions": {
+                "privilege": "Normal",
+                "thickMode": true,
+                "autoCommit": true,
+                "lowerCase": true,
+                "limitPrefetchRows": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1521,
+            "askForPassword": true,
+            "driver": "Oracle",
+            "name": "Valid Result",
+            "database": "root",
+            "username": "root"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Bank review",
+            "database": "bank_reviews",
+            "username": "postgres"
+        }
     ]
 }

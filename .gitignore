@@ -2,8 +2,6 @@
 .venv/
 venv/
 
-# Ignore all SQL files
-sql/*.sql
 
 # Ignore all CSV files in the data folder
 data/*.csv
