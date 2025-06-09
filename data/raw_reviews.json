@@ -1,5 +1,50 @@
 [
     {
+        "reviewId":"a7d1c799-ba53-4a0a-a8d6-c5400a009825",
+        "userName":"A Google user",
+        "content":"A great app. It's like carrying a bank in your pocket.",
+        "score":4,
+        "thumbsUpCount":0,
+        "at":1749327712000,
+        "app_id":"com.combanketh.mobilebanking"
+    },
+    {
+        "reviewId":"64ed5562-1758-4eb8-9291-8b6edc394118",
+        "userName":"A Google user",
+        "content":"More than garrantty bank EBC.",
+        "score":4,
+        "thumbsUpCount":0,
+        "at":1749320486000,
+        "app_id":"com.combanketh.mobilebanking"
+    },
+    {
+        "reviewId":"d0c05687-ddd4-43fb-95a9-08f6358d80a2",
+        "userName":"A Google user",
+        "content":"really am happy to this app it is Siple to use everything",
+        "score":5,
+        "thumbsUpCount":0,
+        "at":1749294158000,
+        "app_id":"com.combanketh.mobilebanking"
+    },
+    {
+        "reviewId":"811bf820-3529-433a-9b6d-e624fa23a16a",
+        "userName":"A Google user",
+        "content":"I liked this app. But the User interface is very basic and not attractive at all.",
+        "score":2,
+        "thumbsUpCount":0,
+        "at":1749293429000,
+        "app_id":"com.combanketh.mobilebanking"
+    },
+    {
+        "reviewId":"be2cb2ac-bbe0-4175-81c4-9f6c86afdaaa",
+        "userName":"A Google user",
+        "content":"\"Why don\u2019t your ATMs support account-to-account transfers like other countries( Kenya, Nigeria , South africa)\"",
+        "score":4,
+        "thumbsUpCount":0,
+        "at":1749203651000,
+        "app_id":"com.combanketh.mobilebanking"
+    },
+    {
         "reviewId":"8efd71e9-59cd-41ce-8c5c-12052dee9ad0",
         "userName":"A Google user",
         "content":"what is this app problem???",
@@ -247,7 +292,7 @@
         "userName":"A Google user",
         "content":"this app has developed in a very good ways but there are some comments I need to make 1- preventing the screenshot likely not good for someone like me coz I need to make screenshot for quicker evidence. 2-it would be good if you make us to access recent transaction histories for 30 days coz we don't have to go to the Bank's in person to see old transactions or add colander category so user can easily access old transactions through colanders.",
         "score":5,
-        "thumbsUpCount":45,
+        "thumbsUpCount":61,
         "at":1748726478000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -472,7 +517,7 @@
         "userName":"A Google user",
         "content":"The CBE app has been highly unreliable in recent weeks. It frequently fails to work properly on both Ethio Telecom and Safaricom networks, whether using Wi-Fi or mobile data. This week, the system was down entirely for extended periods, making it very difficult to access banking services. The app only functions intermittently, and the lack of consistency is frustrating. I hope the issues are addressed soon, and that any non-technical influences are removed from such essential services.",
         "score":2,
-        "thumbsUpCount":12,
+        "thumbsUpCount":17,
         "at":1748170465000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -1872,15 +1917,6 @@
         "app_id":"com.combanketh.mobilebanking"
     },
     {
-        "reviewId":"bb33509d-ed30-445e-98a3-9e7548b2d0be",
-        "userName":"A Google user",
-        "content":"abinet kutafo",
-        "score":1,
-        "thumbsUpCount":0,
-        "at":1745746581000,
-        "app_id":"com.combanketh.mobilebanking"
-    },
-    {
         "reviewId":"0725f956-965a-48c8-a159-baa447a8ae37",
         "userName":"A Google user",
         "content":"I need support you",
@@ -1896,15 +1932,6 @@
         "score":1,
         "thumbsUpCount":0,
         "at":1745708779000,
-        "app_id":"com.combanketh.mobilebanking"
-    },
-    {
-        "reviewId":"4dcdc461-84a3-4872-a697-509ec54d5b93",
-        "userName":"A Google user",
-        "content":"Nuree mahamud",
-        "score":5,
-        "thumbsUpCount":0,
-        "at":1745691938000,
         "app_id":"com.combanketh.mobilebanking"
     },
     {
@@ -2848,7 +2875,7 @@
         "userName":"A Google user",
         "content":"Good job to the CBE team on this mobile app! It's designed in a way that's simple and intuitive to navigate, which is great for everyone. It effectively handles the essential banking tasks I need to perform regularly. It's a practical and reliable tool that makes everyday banking much more convenient. Thank you for this useful application.",
         "score":5,
-        "thumbsUpCount":549,
+        "thumbsUpCount":571,
         "at":1743805127000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -4909,7 +4936,7 @@
         "userName":"A Google user",
         "content":"this new update(Mar 19,2025) is great in fixing bugs, stability and smooth experience I'll give u that but it came with a big shortcoming which is not allowing to take screenshot. I can't screenshot neither my balance nor the transaction or anything within the app, i understand it's for security reasons but please bring that back, allow us to take screenshot we need that. Thanks.",
         "score":4,
-        "thumbsUpCount":844,
+        "thumbsUpCount":866,
         "at":1742483498000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -5044,7 +5071,7 @@
         "userName":"A Google user",
         "content":"as if the update of march 19 i can't take a screenshot in the app. i can just save it as file and that is so annoying. i used to save all screenshot in my gallery in one folder now with the extra steps added i have to save the file go to file and then screenshot it. the solution is to allow the screenshot to be save in to gallery automatically. i wish you give this review attention and resolve the issue shortly.",
         "score":2,
-        "thumbsUpCount":58,
+        "thumbsUpCount":59,
         "at":1742390019000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -13396,7 +13423,7 @@
         "userName":"A Google user",
         "content":"Convenient and safe to use! Better to show more transaction history \ud83d\udc4d",
         "score":5,
-        "thumbsUpCount":233,
+        "thumbsUpCount":234,
         "at":1734205823000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -15556,7 +15583,7 @@
         "userName":"A Google user",
         "content":"It is a service that is not expected from such a large institution. I saw that your work is very complicated. The user does not understand well your application. In general, you have many problems. This application is not convenient for the end user. For instance I can't access my account from abroad what I depsited amount and transfer from my account to any any one .It is a shame.",
         "score":1,
-        "thumbsUpCount":104,
+        "thumbsUpCount":105,
         "at":1729094567000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -28921,7 +28948,7 @@
         "userName":"A Google user",
         "content":"1. Still no biometric sign in option 2. Annoying welcome notification 3. Not able to share payment receipts just from the app 4. Different interface from one mobile device to the other one. 5. In general, the app requires overhaul to cope with other mobile banking services of banks.",
         "score":1,
-        "thumbsUpCount":175,
+        "thumbsUpCount":176,
         "at":1708121455000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -29002,7 +29029,7 @@
         "userName":"A Google user",
         "content":"It's a quiet good and smoothly accessible app which allows users to transfer and deposit but it would have been very great if there was a chance for topping up or Adding balance to your account.",
         "score":3,
-        "thumbsUpCount":742,
+        "thumbsUpCount":743,
         "at":1708069669000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -29272,7 +29299,7 @@
         "userName":"A Google user",
         "content":"Trasaction Reports are not full, the list only shows the last 10 transactions, I need to see every transaction I made , and make a contact us page on your app too, other than that it's a good app",
         "score":3,
-        "thumbsUpCount":892,
+        "thumbsUpCount":893,
         "at":1707925938000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -39883,7 +39910,7 @@
         "userName":"A Google user",
         "content":"With each update the app is getting slower and slower, specially when requesting transaction history. And I wish the logging process could be done easily. When someone changes a phone, it makes it mandatory to consult the branch and that makes it not to be self assisted. Hope you could fix it. Please add an option of transferring to other TeleBirr numbers other than the \"Own telebirr\" option. It id very limiting now a days",
         "score":4,
-        "thumbsUpCount":371,
+        "thumbsUpCount":372,
         "at":1691748144000,
         "app_id":"com.combanketh.mobilebanking"
     },
@@ -40474,7 +40501,7 @@
     },
     {
         "reviewId":"7091d753-e746-443e-b708-8c288b0dcb6c",
-        "userName":"A Google user",
+        "userName":"Bisrat Eshetu",
         "content":"I couldn't install the app it stuck you gotta fix it",
         "score":1,
         "thumbsUpCount":0,
@@ -40483,7 +40510,7 @@
     },
     {
         "reviewId":"390fe074-26bf-447a-a7c4-d799fe6073df",
-        "userName":"A Google user",
+        "userName":"Abdulhai Abdella",
         "content":"Relatively good app, but we need electronic receipt or advice in PDF format to be printed for every transaction or payment we made (AWSA, EEU,IMMIGRATION FOR PASSPORT, ...) think about it.",
         "score":5,
         "thumbsUpCount":2,
@@ -40492,7 +40519,7 @@
     },
     {
         "reviewId":"99d896a6-d967-4658-9ee0-32621ecd0ace",
-        "userName":"A Google user",
+        "userName":"hagos Zerihun",
         "content":"Am happy to use this app, because it's very nice to use .",
         "score":1,
         "thumbsUpCount":0,
@@ -44973,31 +45000,31 @@
         "app_id":"com.combanketh.mobilebanking"
     },
     {
-        "reviewId":"add9d8a1-6c09-43fc-b2d0-6b78a73fdd39",
-        "userName":"Abdlsemed",
-        "content":"\u12a5\u1293\u1218\u1230\u130d\u1293\u1208\u1295 \u130d\u1295 \u12a8\u12a5\u1295\u1270\u122d\u1294\u1275 \u1290\u1343 \u1218\u1206\u1295 \u1290\u1260\u1228\u1260\u1275",
+        "reviewId":"d305d857-0fc0-4458-9ee7-5a742fe48c33",
+        "userName":"Kalidabdurahaman Hassen",
+        "content":"kalid",
         "score":5,
-        "thumbsUpCount":1,
-        "at":1671798863000,
-        "app_id":"com.combanketh.mobilebanking"
+        "thumbsUpCount":0,
+        "at":1749341062000,
+        "app_id":"com.dashen.dashensuperapp"
     },
     {
-        "reviewId":"cd6c4cda-d147-47e5-81c2-cbbaea433fca",
-        "userName":"ararso adem",
-        "content":"This app is very helpful because it is easy and user-friendly. It also provides different services and simplifies time to use other options.",
-        "score":5,
-        "thumbsUpCount":31,
-        "at":1671731362000,
-        "app_id":"com.combanketh.mobilebanking"
+        "reviewId":"6ab16d21-d2c8-4235-9c48-ff713bfde731",
+        "userName":"Adonijah",
+        "content":"I like this mobile banking app very much. Overall user interface and navigation is awesome. But it lacks instant response when someone deposit or withdraw money.",
+        "score":2,
+        "thumbsUpCount":0,
+        "at":1749292829000,
+        "app_id":"com.dashen.dashensuperapp"
     },
     {
-        "reviewId":"8ebd6ae8-1ea3-456e-bc81-0519d7a55bfc",
-        "userName":"Habtamu Feleke",
-        "content":"Good app!",
-        "score":5,
-        "thumbsUpCount":1,
-        "at":1671700678000,
-        "app_id":"com.combanketh.mobilebanking"
+        "reviewId":"22818807-3368-446c-8a3b-d3ca2e07a2d8",
+        "userName":"OBSA KA",
+        "content":"love",
+        "score":3,
+        "thumbsUpCount":0,
+        "at":1749168944000,
+        "app_id":"com.dashen.dashensuperapp"
     },
     {
         "reviewId":"6ece1f5e-55f2-404d-b980-1cb45823180f",
@@ -45184,7 +45211,7 @@
         "userName":"Mohammed Asefa",
         "content":"Game changer app! Dashen Bank Super App is fast, secure, and easy to use. The three-click payment makes sending money super quick, and the QR code payment is perfect for cashless shopping. I also love the biometric login and easy airtime and bill payments. Everything I need is in one place. Dashen Bank has really raised the bar for digital banking in Ethiopia. Highly recommended!",
         "score":5,
-        "thumbsUpCount":18,
+        "thumbsUpCount":19,
         "at":1748286989000,
         "app_id":"com.dashen.dashensuperapp"
     },
@@ -45792,15 +45819,6 @@
         "app_id":"com.dashen.dashensuperapp"
     },
     {
-        "reviewId":"f0c1bd73-66ab-47e9-9238-2ab86618c796",
-        "userName":"Muluken Nega",
-        "content":"It is one of the best app ever use it and do it",
-        "score":5,
-        "thumbsUpCount":1,
-        "at":1745666562000,
-        "app_id":"com.dashen.dashensuperapp"
-    },
-    {
         "reviewId":"3cef32ad-b3c0-4784-8594-0dfee471123e",
         "userName":"Solomon Letta",
         "content":"It is very slow and it lacks many features to be a super app. High rating is given by their employees, not by the customers.",
@@ -46174,7 +46192,7 @@
         "userName":"Yohannes Teshome",
         "content":"Dashen Super App is a game-changer! It\u2019s fast, user-friendly, and packed with features that make everyday banking and transactions super convenient. I love how everything I need from mobile banking to utility payments is all in one place. The interface is clean, and everything works smoothly. Definitely one of the best apps out there. Highly recommended!",
         "score":5,
-        "thumbsUpCount":96,
+        "thumbsUpCount":100,
         "at":1745270930000,
         "app_id":"com.dashen.dashensuperapp"
     },
@@ -46345,7 +46363,7 @@
         "userName":"Nebil Mulugeta",
         "content":"i can't recommend the Dashen Super App enough! This app is truly a game changer for anyone looking for a seamless and efficient way to manage their daily life. It combines multiple essential services into one easy-to-use platform, saving time and simplifying tasks The user interface is modern, intuitive, and super responsive, making navigation a breeze. Whether it's banking, payment services, or accessing lifestyle features, everything is just a few clicks away!!",
         "score":5,
-        "thumbsUpCount":108,
+        "thumbsUpCount":109,
         "at":1745251703000,
         "app_id":"com.dashen.dashensuperapp"
     },
@@ -46768,7 +46786,7 @@
         "userName":"Kalkidan Befekadu",
         "content":"The new mobile banking application is a major upgrade! It\u2019s incredibly user-friendly, with a clean and modern design that makes navigation simple and intuitive. I really appreciate how fast it loads and how smooth the overall experience is. All essential services like balance checks, transfers, and bill payments are eas y to find and use. The added security features give me peace of mind, and the app runs reliably without crashes or glitches. It\u2019s clear a lot of thought went into the user experi",
         "score":5,
-        "thumbsUpCount":188,
+        "thumbsUpCount":195,
         "at":1745236322000,
         "app_id":"com.dashen.dashensuperapp"
     },
@@ -47686,7 +47704,7 @@
         "userName":"Aimless Noob",
         "content":"This app is the most unreliable mobile banking application I have ever used for transaction, it is very late, non-responsive and full of bugs. Its is very disappointing. It is just inconvinient, and not user friendly and compatabke at all !!!!!!",
         "score":1,
-        "thumbsUpCount":197,
+        "thumbsUpCount":207,
         "at":1741967153000,
         "app_id":"com.dashen.dashensuperapp"
     },
@@ -47893,7 +47911,7 @@
         "userName":"Milla Coffee",
         "content":"Super Up is the ultimate digital banking app, living up to its name with speed, efficiency, and innovation. Designed for a seamless experience, it offers lightning-fast transactions, top-tier security, and effortless financial management. With Super Up, banking has never been this smooth, smart, and super!",
         "score":5,
-        "thumbsUpCount":53,
+        "thumbsUpCount":54,
         "at":1740589360000,
         "app_id":"com.dashen.dashensuperapp"
     },
@@ -49095,15 +49113,6 @@
         "app_id":"com.boa.boaMobileBanking"
     },
     {
-        "reviewId":"78c924d7-0a65-415c-9fca-bda9b078a157",
-        "userName":"Kibrom Mebrahtu",
-        "content":"very nice Abyssinia bank is choice all",
-        "score":5,
-        "thumbsUpCount":0,
-        "at":1748692558000,
-        "app_id":"com.boa.boaMobileBanking"
-    },
-    {
         "reviewId":"c3f2810d-cf99-4600-90ac-bef47adb9e7a",
         "userName":"Ethiopia",
         "content":"this app, for me , is a waste of time. It doesn't work . I can't even long in, and it really piss me off. FIX THE PROBLEM",
@@ -49162,7 +49171,7 @@
         "userName":"Natty Solomon",
         "content":"This app is a joke. It crashes more than it works, takes forever to load, and half the features are just decorative at this point. Can\u2019t log in, can\u2019t transfer money, can\u2019t even check my balance without it bugging out. To the developer: Are you actually trying to make this work, or is this some kind of social experiment to test our patience? Did you build this in your sleep? Because it definitely looks like it. If this is your idea of a functional app, maybe consider a different career path\ud83d\ude4f",
         "score":1,
-        "thumbsUpCount":45,
+        "thumbsUpCount":49,
         "at":1747835355000,
         "app_id":"com.boa.boaMobileBanking"
     },
@@ -49261,7 +49270,7 @@
         "userName":"bogale abunu",
         "content":"i entered incorrect security question by mistake boa app lock pin forever, why is there no other options? ?? i contacted different branchs more then 4times but they didn't able to solve this issue .",
         "score":5,
-        "thumbsUpCount":60,
+        "thumbsUpCount":62,
         "at":1746881084000,
         "app_id":"com.boa.boaMobileBanking"
     },
@@ -51337,7 +51346,7 @@
     },
     {
         "reviewId":"a84791b9-6811-4e81-9461-b4e880dee4d6",
-        "userName":"fereazr assefa",
+        "userName":"feriazr Assefar",
         "content":"That's too good application but try to add more alternatives and futures or possibilitys for your customers",
         "score":3,
         "thumbsUpCount":0,
@@ -57775,7 +57784,7 @@
         "userName":"Hamilan Nano",
         "content":"What an awesome app! It is supper easy to use with very attractive GUI. But there are some problems to be addressed: (1) It crashes frequently and requires mobile cache to be cleared to relaunch. (2) Automatic OTP input is good. But fix the manual activation option, too. (3) It does not boot fast. (4) There are minor errors during the installation. (5) Color contrast: In the transactions menu, the credit accounts should be in dark green than light green. The debit accounts should be in dark red.",
         "score":5,
-        "thumbsUpCount":1808,
+        "thumbsUpCount":1811,
         "at":1707254075000,
         "app_id":"com.boa.boaMobileBanking"
     },
