@@ -158,6 +158,9 @@ class ReviewThematicAnalyzer:
         output_path: str,
         columns: List[str] = [
             "review_id",
+            "app_id", 
+            "app_name", 
+            "rating", 
             "review_text", 
             "sentiment_label", 
             "sentiment_score",

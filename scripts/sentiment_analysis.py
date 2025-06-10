@@ -126,32 +126,3 @@ class SentimentAnalyzer:
             raise ValueError("Input must be a list of strings")
             
         return [self.analyze(text) for text in texts]
-
-
-if __name__ == "__main__":
-    analyzer = SentimentAnalyzer()
-    
-    text = "I love this movie but it's too long."
-    result = analyzer.analyze(text)
-    print(f"Analysis for '{text}':")
-    print(result)
-    
-    texts = [
-        "This product is amazing!",
-        "I'm very disappointed with the service.",
-        "It's okay, nothing special.", 
-        "I hate you"
-    ]
-    print("\nBatch analysis results:")
-    for text, analysis in zip(texts, analyzer.batch_analyze(texts)):
-        print(f"'{text}': {analysis}")
-    
-    # Example using API instead of local model
-    print("\nInitializing API-based analyzer...")
-    try:
-        api_analyzer = SentimentAnalyzer(use_api=True)
-        api_result = api_analyzer.analyze("The weather is nice today")
-        print("API analysis result:", api_result)
-    except Exception as e:
-        print(f"API analyzer failed: {str(e)}")
-        print("Make sure HF_TOKEN is set in your .env file")
